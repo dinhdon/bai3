@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  color: rgb(255, 240, 240);
+  font-weight: 400;
+}
+.container {
+  min-width: 768px;
+  background-image: linear-gradient(
+      rgba(83, 68, 138, 0.6),
+      rgba(83, 68, 138, 0.6)
+    ),
+    url(../img/anhdep.jpg);
+  width: 100%;
+  background-size: cover;
+  position: relative;
+}
+.title-name {
+  text-align: center;
+  padding: 30px;
+}
+.pager {
+  width: 60%;
+  background-color: rgba(31, 29, 29, 0.7);
+  margin: 0 auto;
+}
+/* .survey-prom {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+} */
+.from-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 75%;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+option {
+  color: black;
+}
+select {
+  color: black;
+}
